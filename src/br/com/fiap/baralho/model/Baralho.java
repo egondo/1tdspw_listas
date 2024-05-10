@@ -38,6 +38,17 @@ public class Baralho {
 		}
 	}
 	
+	
+	public Carta comprar() {
+		if (monte.size() > 0)
+			return monte.remove(0);
+		else
+			return null;
+	}
+	
+	
+	
+	
 	public void imprime() {
 		/*
 		 * int i = 0; while (i < monte.size()) { System.out.print(monte.get(i)); i++; }

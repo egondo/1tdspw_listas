@@ -18,4 +18,11 @@ public class Carta {
 	public String getNaipe() {
 		return naipe;
 	}
+	
+	public String toString() {
+		return valor + naipe;
+	}
+	
+	
+	
 }
